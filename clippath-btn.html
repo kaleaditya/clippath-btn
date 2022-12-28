@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clip-path btn</title>
+</head>
+<body>
+  
+
+  <div class="btn">
+    <a href="Hello">hello</a>
+  </div>
+
+  
+</body>
+</html>
+<style>
+
+  body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background: #fff0dc;
+}
+
+.btn {
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+a {
+  background: #FB8C00;
+  color: #eee; text-decoration: none;
+  padding: 20px 90px;
+  font: bold 32px system-ui;
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+</style>
